@@ -1,0 +1,75 @@
+/* Reset */
+body, html { margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden; background: #111; font-family: 'Helvetica Neue', sans-serif; }
+
+.hero-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+/* BACKGROUND */
+.bg-image-wrapper {
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+.bg-image {
+    width: 100%; height: 100%; object-fit: cover;
+}
+.overlay {
+    position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(0,0,0,0.4); /* Darken image */
+}
+
+/* NAVBAR */
+.nav {
+    position: absolute; top: 0; left: 0; width: 100%;
+    display: flex; justify-content: space-between;
+    padding: 40px;
+    box-sizing: border-box;
+    font-weight: bold;
+    letter-spacing: 1px;
+    z-index: 10;
+}
+
+/* HERO TEXT */
+.hero-content {
+    text-align: center;
+    z-index: 2;
+}
+
+/* THE MAGIC MASK (Important!) */
+.mask-container {
+    overflow: hidden; /* This hides the text when it is "down" */
+}
+
+h1 {
+    font-size: 8vw;
+    line-height: 0.9;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    opacity: 0.8;
+}
+
+.cta-btn {
+    padding: 15px 40px;
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}
