@@ -2,13 +2,15 @@ import { useState } from 'react'
 import Day01 from './days/Day01'
 import Day02 from './days/Day02'
 import Day03 from './days/Day03'
+import Day04 from './days/Day04'
 import "./App.css"
 
 // As we go, we will add Day02, Day03 here...
 const components = {
   1: Day01,
   2: Day02,
-  3: Day03
+  3: Day03,
+  4: Day04
 }
 
 export default function App() {
