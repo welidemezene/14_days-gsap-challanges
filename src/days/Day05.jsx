@@ -60,7 +60,7 @@ export default function Day05() {
   return (
     <div ref={container} style={{ 
         minHeight: '100vh', background: '#111', color: 'white', 
-        padding: 50, fontFamily: 'sans-serif' 
+        padding: 80, fontFamily: 'sans-serif' 
     }}>
       
       <h1 style={{ fontSize: '4rem', marginBottom: 50 }}>GALLERY <span style={{ color: '#00ff88' }}>FLIP</span></h1>

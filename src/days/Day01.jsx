@@ -15,7 +15,7 @@ export default function Day01() {
       y: '100%',
       duration: 1.5,
       ease: 'power4.out', // Expensive feeling ease
-      stagger: 0.1 // The "Wave" effect (0.1s delay between lines)
+      stagger: 0.03 // The "Wave" effect (0.1s delay between lines)
     })
 
     // 2. Subtitle Fade
