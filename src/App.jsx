@@ -6,7 +6,8 @@ import Day03 from './days/Day03'
 import Day04 from './days/Day04'
 import Day05 from './days/Day05' 
 import Day06 from './days/Day06'
-import Day07 from './days/Day07'// <--- IMPORT THIS
+import Day07 from './days/Day07'
+import Day08 from './days/Day08'// <--- IMPORT THIS
 
 const components = {
   1: Day01,
@@ -15,7 +16,8 @@ const components = {
   4: Day04,
   5: Day05, 
   6: Day06,
-  7: Day07// <--- ADD THIS
+  7: Day07,
+  8: Day08// <--- ADD THIS
 }
 
 export default function App() {
